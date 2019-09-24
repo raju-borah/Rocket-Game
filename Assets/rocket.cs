@@ -8,7 +8,7 @@ public class rocket : MonoBehaviour
 
     [SerializeField] float rcsThrust = 100f;//reaction control system
     [SerializeField] float mainThrust = 100f;//reaction control system
-
+    [SerializeField] AudioClip mainEngine;
     enum State {Alive,Dead,Transending}
     State state = State.Alive;
     
